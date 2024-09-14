@@ -1,0 +1,304 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #090909;
+    background: #000000;
+}
+
+header.hero {
+    background: linear-gradient(135deg, #000000, #000000);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    
+}
+
+.hero .btn {
+    background: #0079dd;
+    color: #000000;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About Section */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+    
+}
+
+.about-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    
+}
+
+.about-text {
+    flex: 2;
+    max-width: 600px;
+    color: #f6f6f6;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f6f6f6;
+    
+}
+
+/* Experience Section */
+.card {
+    background: #0389ef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-header {
+    background: #1e2a38;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #094469;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.responsibilities {
+    display: none;
+    color: #000000;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color: #000000;
+}
+
+.skill {
+    background: #0389ef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+    
+}
+
+/* Projects Section */
+.project {
+    background: #0389ef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.contact {
+background-color: #000000;
+    padding: 20px;
+    margin-bottom: 80px;
+   color: #f6f6f6;
+}
+/* Hobbies Section */
+.hobbies {
+    padding: 60px 20px;
+    background: #000000;
+    text-align: center;
+}
+
+.hobbies h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hobbies-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.hobby-card {
+    background: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hobby-icon {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.hobby-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.hobby-card p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hobbies h2 {
+        font-size: 1.5em;
+    }
+
+    .hobby-card {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .hobby-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hobby-card h3 {
+        font-size: 1.2em;
+    }
+
+    .hobby-card p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hobbies h2 {
+        font-size: 1.2em;
+    }
+
+    .hobby-card {
+        max-width: 100%;
+    }
+
+    .hobby-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hobby-card h3 {
+        font-size: 1em;
+    }
+
+    .hobby-card p {
+        font-size: 0.8em;
+    }
+}
