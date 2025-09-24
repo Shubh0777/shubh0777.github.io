@@ -73,8 +73,8 @@ footer {
 }
 
 .about-image img {
-    width: 150px;
-    height: 150px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #333;
@@ -302,3 +302,4 @@ background-color: #000000;
         font-size: 0.8em;
     }
 }
+
