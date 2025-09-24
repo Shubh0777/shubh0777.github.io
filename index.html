@@ -29,72 +29,96 @@
     </section>
 
     <section id="experience" class="experience">
-        <!-- Card 1 (Swapped with Card 3) -->
-        <div class="card" id="marketingInternshipCard">
-            <div class="card-header">
-                <h3>FranchiseAVS</h3>
-                <button class="toggle-btn" onclick="toggleDetails('marketingInternshipCard')">+</button>
+
+    <!-- TaskUs Experience -->
+    <div class="card" id="taskusCard">
+        <div class="card-header">
+            <h3>TaskUs</h3>
+            <button class="toggle-btn" onclick="toggleDetails('taskusCard')">+</button>
+        </div>
+        <div class="card-body">
+            <div class="role" id="taskusRole">
+                <h4>Role: Teammate</h4>
+                <p><em>October 2024 – Present | Mohali, Punjab</em></p>
+                <button class="toggle-btn" onclick="toggleResponsibilities('taskusRole')">+</button>
             </div>
-            <div class="card-body">
-                <div class="role" id="marketingInternshipRole">
-                    <h4>Role: Digital Marketing Intern</h4>
-                    <button class="toggle-btn" onclick="toggleResponsibilities('marketingInternshipRole')">+</button>
-                </div>
-                <div class="responsibilities" id="marketingInternshipResponsibilities">
-                    <ul>
-                        <li>Assisted with paid media campaigns.</li>
-                        <li>Conducted market research and analysis.</li>
-                        <li>Prepared reports and tracked campaign performance.</li>
-                        <li>Supported the team with various digital marketing tasks.</li>
-                    </ul>
-                </div>
+            <div class="responsibilities" id="taskusResponsibilities">
+                <ul>
+                    <li>Provided top-tier customer support, ensuring high satisfaction and resolution rates.</li>
+                    <li>Managed customer inquiries through chat, email, and calls, addressing concerns effectively.</li>
+                    <li>Assisted in troubleshooting and resolving product/service-related issues efficiently.</li>
+                </ul>
             </div>
         </div>
-        
-        <!-- Card 2 -->
-        <div class="card" id="amazonCard">
-            <div class="card-header">
-                <h3>Amazon</h3>
-                <button class="toggle-btn" onclick="toggleDetails('amazonCard')">+</button>
+    </div>
+
+    <!-- FranchiseAVS Experience -->
+    <div class="card" id="marketingInternshipCard">
+        <div class="card-header">
+            <h3>FranchiseAVS</h3>
+            <button class="toggle-btn" onclick="toggleDetails('marketingInternshipCard')">+</button>
+        </div>
+        <div class="card-body">
+            <div class="role" id="marketingInternshipRole">
+                <h4>Role: Digital Marketing Intern</h4>
+                <button class="toggle-btn" onclick="toggleResponsibilities('marketingInternshipRole')">+</button>
             </div>
-            <div class="card-body">
-                <div class="role" id="amazonRole">
-                    <h4>Role: Contract Position</h4>
-                    <button class="toggle-btn" onclick="toggleResponsibilities('amazonRole')">+</button>
-                </div>
-                <div class="responsibilities" id="amazonResponsibilities">
-                    <ul>
-                        <li>Managed customer queries and product issues.</li>
-                        <li>Worked on process improvement projects.</li>
-                        <li>Assisted in team training sessions.</li>
-                        <li>Handled complex cases and provided solutions.</li>
-                    </ul>
-                </div>
+            <div class="responsibilities" id="marketingInternshipResponsibilities">
+                <ul>
+                    <li>Assisted with paid media campaigns.</li>
+                    <li>Conducted market research and analysis.</li>
+                    <li>Prepared reports and tracked campaign performance.</li>
+                    <li>Supported the team with various digital marketing tasks.</li>
+                </ul>
             </div>
         </div>
-        
-        <!-- Card 3 (Swapped with Card 1) -->
-        <div class="card" id="concentrixCard">
-            <div class="card-header">
-                <h3>Concentrix</h3>
-                <button class="toggle-btn" onclick="toggleDetails('concentrixCard')">+</button>
+    </div>
+
+    <!-- Amazon Experience -->
+    <div class="card" id="amazonCard">
+        <div class="card-header">
+            <h3>Amazon</h3>
+            <button class="toggle-btn" onclick="toggleDetails('amazonCard')">+</button>
+        </div>
+        <div class="card-body">
+            <div class="role" id="amazonRole">
+                <h4>Role: Contract Position</h4>
+                <button class="toggle-btn" onclick="toggleResponsibilities('amazonRole')">+</button>
             </div>
-            <div class="card-body">
-                <div class="role" id="concentrixRole">
-                    <h4>Role: Customer Service Representative</h4>
-                    <button class="toggle-btn" onclick="toggleResponsibilities('concentrixRole')">+</button>
-                </div>
-                <div class="responsibilities" id="concentrixResponsibilities">
-                    <ul>
-                        <li>Resolved customer queries and product issues.</li>
-                        <li>Escalated issues to investigation teams.</li>
-                        <li>Decided on concessions based on image verification.</li>
-                        <li>Denied refunds when customers provided incorrect information.</li>
-                    </ul>
-                </div>
+            <div class="responsibilities" id="amazonResponsibilities">
+                <ul>
+                    <li>Managed customer queries and product issues.</li>
+                    <li>Worked on process improvement projects.</li>
+                    <li>Assisted in team training sessions.</li>
+                    <li>Handled complex cases and provided solutions.</li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!-- Concentrix Experience -->
+    <div class="card" id="concentrixCard">
+        <div class="card-header">
+            <h3>Concentrix</h3>
+            <button class="toggle-btn" onclick="toggleDetails('concentrixCard')">+</button>
+        </div>
+        <div class="card-body">
+            <div class="role" id="concentrixRole">
+                <h4>Role: Customer Service Representative</h4>
+                <button class="toggle-btn" onclick="toggleResponsibilities('concentrixRole')">+</button>
+            </div>
+            <div class="responsibilities" id="concentrixResponsibilities">
+                <ul>
+                    <li>Resolved customer queries and product issues.</li>
+                    <li>Escalated issues to investigation teams.</li>
+                    <li>Decided on concessions based on image verification.</li>
+                    <li>Denied refunds when customers provided incorrect information.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
 
     <section id="skills" class="skills">
         <h2>Skills</h2>
@@ -181,4 +205,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
