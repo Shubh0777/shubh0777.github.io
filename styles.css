@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #090909;
-    background: #000000;
+    color: #fff;
+    background: radial-gradient(circle at 20% 20%, #0a0f1c, #000000 70%);
 }
 
 header.hero {
