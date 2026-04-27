@@ -1,16 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-    background: radial-gradient(circle at top, #0a0f1c, #000000);
-}
-
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -34,17 +21,13 @@ body {
     text-shadow: 0 0 15px #0079dd;
 }
 
-.hero p {
-    margin: 10px 0;
-}
-
+/* BUTTON */
 .btn {
     background: #0079dd;
     padding: 10px 20px;
     border-radius: 8px;
     color: #000;
     text-decoration: none;
-    box-shadow: 0 0 15px #0079dd;
 }
 
 /* SECTION */
@@ -56,7 +39,7 @@ section {
 
 /* ABOUT */
 .about-text-center {
-    max-width: 750px;
+    max-width: 700px;
     margin: auto;
     text-align: center;
     line-height: 1.7;
@@ -65,33 +48,26 @@ section {
 /* GRID */
 #experience {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-/* GLASS CARD */
+/* CARDS */
 .card, .skill {
     background: rgba(255,255,255,0.05);
-    backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 12px;
     border: 1px solid rgba(0,121,221,0.3);
-    transition: 0.3s;
-}
-
-.card:hover, .skill:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 20px #0079dd;
 }
 
 /* CONTACT */
-.contact {
+#contact {
     text-align: center;
 }
 
