@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial;
-    color: #fff;
-    background: radial-gradient(circle at top, #0a0f1c, #000);
+body::before {
+    content: "";
+    position: fixed;
+    top: -200px;
+    left: -200px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, #0079dd33, transparent);
+    z-index: -1;
 }
 
 /* HERO */
