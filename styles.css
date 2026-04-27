@@ -15,6 +15,26 @@ body::before {
     z-index: -1;
 }
 
+.about-text-center {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.about-text-center p {
+    margin-bottom: 15px;
+}
+
+#about {
+    padding-top: 80px;
+}
+
+#about h2 {
+    margin-bottom: 25px;
+}
+
 /* HERO */
 .hero {
     text-align: center;
