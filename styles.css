@@ -5,7 +5,9 @@
 }
 
 body {
-    background: red !important;
+    font-family: Arial;
+    color: #fff;
+    background: radial-gradient(circle at top, #0a0f1c, #000);
 }
 
 /* HERO */
