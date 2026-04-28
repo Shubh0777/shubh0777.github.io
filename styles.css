@@ -11,16 +11,26 @@ body {
 }
 
 /* HERO */
-.hero {
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content p {
+    margin: 8px 0;
+}
+
+.hero-desc {
+    margin-bottom: 20px; /* 👈 THIS creates space before button */
+    max-width: 600px;
     text-align: center;
-    padding: 80px 20px;
 }
 
-.hero h1 {
-    font-size: 2.8rem;
-    text-shadow: 0 0 15px #0079dd;
+.btn {
+    margin-top: 10px;
+    display: inline-block;
 }
-
 /* BUTTON */
 .btn {
     background: #0079dd;
