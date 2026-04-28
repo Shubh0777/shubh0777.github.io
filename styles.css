@@ -28,6 +28,10 @@ body {
     border-radius: 8px;
     color: #000;
     text-decoration: none;
+    box-shadow: 0 0 15px #0079dd;
+
+    margin-top: 20px; /* 👈 ADD THIS */
+    display: inline-block; /* 👈 IMPORTANT */
 }
 
 /* SECTION */
