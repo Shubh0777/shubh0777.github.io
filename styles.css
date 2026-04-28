@@ -11,37 +11,43 @@ body {
 }
 
 /* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px 60px;
+}
+
 .hero-content {
+    max-width: 650px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .hero-content p {
-    margin: 8px 0;
+    margin: 6px 0;
 }
 
 .hero-desc {
-    margin-bottom: 20px; /* 👈 THIS creates space before button */
-    max-width: 600px;
-    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
-.btn {
-    margin-top: 10px;
-    display: inline-block;
+.hero h1 {
+    font-size: 2.8rem;
+    text-shadow: 0 0 15px #0079dd;
 }
+
 /* BUTTON */
 .btn {
+    display: inline-block;
+    margin-top: 20px;
     background: #0079dd;
     padding: 10px 20px;
     border-radius: 8px;
     color: #000;
     text-decoration: none;
     box-shadow: 0 0 15px #0079dd;
-
-    margin-top: 20px; /* 👈 ADD THIS */
-    display: inline-block; /* 👈 IMPORTANT */
 }
 
 /* SECTION */
